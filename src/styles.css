@@ -1,0 +1,265 @@
+
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.test {
+    display: inline-block;
+    margin: 2em auto;
+    border: 2px solid #000;
+    font-size: 2em;
+}
+
+.spade-btn {
+    border-radius: 4px;
+    height: 42px;
+    min-width: 58px;
+    font-size: 16px;
+}
+
+.spade-btn-sm {
+    border-radius: 4px;
+    height: 32px;
+    min-width: 48px;
+    font-size: 14px;
+}
+
+.spade-btn-primary {
+    background: #0F65EF;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #0F65EF;
+}
+
+.spade-btn-lg-flat {
+    border-radius: 4px;
+    height: 42px;
+    min-width: 78px;
+    font-size: 16px;
+}
+
+.spade-btn-wide {
+    border-radius: 4px;
+    height: 42px;
+    min-width: 248px;
+    font-size: 16px;
+}
+
+.spade-btn-sm-flat {
+    border-radius: 4px;
+    height: 32px;
+    min-width: 66px;
+    font-size: 14px;
+}
+
+.spade-primary-disabled {
+    opacity: 0.3;
+    background: #0F65EF;
+    color: #fff;
+    border: 1px solid #0F65EF;
+}
+
+.spade-secondary-disabled {
+    opacity: 0.3;
+    background: #fff;
+    color: #0F65EF;
+    border: 1px solid #0F65EF;
+}
+
+.spade-btn-secondary {
+    background: #fff;
+    color: #0F65EF;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #0F65EF
+}
+
+.spade-btn-danger {
+    background: #EE3322;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #EE3322
+}
+.btn-facebook{
+    background: #3B5998;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #3B5998
+}
+.btn-twitter{   color: #fff;
+    border-radius: 3px;
+    border: 1px solid #55ACEE;
+    background: #55ACEE;
+   
+}
+.btn-pintrest{
+    background: #BD081C;
+    border-radius: 3px;
+    color: #fff;
+    border: 1px solid #BD081C;
+}
+.btn-linkdin{ 
+    color: #fff;
+    border: 1px solid #0077B5;
+    background: #0077B5;
+    border-radius: 3px;
+}
+.btn-mail{  color: #fff;
+    background: #68AF15;
+    border-radius: 3px;
+    border: 1px solid #68AF15;
+}
+.heading-1 {
+    font-size: 42px;
+    color: #333333;
+    text-align: left;
+    line-height: 2;
+    font-weight: 300;
+}
+.heading-2 {
+    font-size: 36px;
+    color: #333333;
+    text-align: left;
+    line-height: 2;
+    font-weight: 400;
+}
+.heading-3{
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 1.5;
+    font-weight:700;
+}
+.heading-4{
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+    line-height: 2;
+    font-weight:500;
+}
+.heading-5{
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+    line-height: 1.2;
+    font-weight:700;
+}
+.heading-6{
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+    line-height: 20.8px;
+    font-weight:400;
+}
+.badge{
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.bagde-primary{
+    background: #0F65EF;
+    color: #fff;
+}
+.bagde-secondary{
+    color: #fff;
+    background-color: #6c757d;
+}
+.bagde-warning{
+    color: #212529;
+    background-color: #ffc107;
+}
+.bagde-success{
+    color: #fff;
+    background-color: #28a745;
+}
+.bagde-info{
+    color: #fff;
+    background-color: #17a2b8;
+}
+.bagde-light{
+    color: #212529;
+    background-color: #f8f9fa;
+}
+.bagde-danger{
+    color: #fff;
+    background-color: #EE3322;
+}
+
+.bagde-dark{
+    color: #fff;
+    background-color: #343a40;
+}
+
+.Bg-Form-box{
+    border: 1px solid #cacaca;
+    min-width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    margin: 28px;
+    display: flex;
+
+}
+.Form-box{
+    border: none;
+    min-width: 250px;
+    height: 30px;
+    border-radius: 0px;
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #cacaca;
+    padding: 5px;
+    display: flex;
+
+}
+.horizontal-form{
+    border: 1px solid #cacaca;
+    width: 50%;
+    box-shadow: 0px 4px 6px 1px #cacaca;
+}
+.horizontal-form1{
+    border: 1px solid #cacaca;
+    width: 50%;
+   
+}
+.horizontal-form Button,.horizontal-form1 Button{
+margin:0 25px 25px 25px;
+}
+
+.pageHStyle > div, .styleForm{
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.badgeStyle{
+    margin: 20px 00px 00px 20px;
+}
+.badgeStyle > div{
+    margin: 20px 10px;
+    
+}
+.pagesContent{
+    font-size:16px;
+    line-height: 21px;
+    margin-bottom:20px;
+}
+.pagesContent span{ font-size: 24px; display: block; margin-bottom:10px;}
+.badge{
+    padding: 0.65em 0.6em;
+    margin: 20px 00px 00px 20px;
+}
+
