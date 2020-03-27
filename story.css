@@ -1,0 +1,38 @@
+Button{
+margin-right: 10px;
+}
+Badge{
+    margin-right: 10px;
+    margin-top: 10px;
+    }
+.buttonGroup Button{
+margin-right: 10px;
+margin-top: 10px;
+margin-left: 10px;
+}
+/* .css-1ocpa5l{
+    background:#007fff !important;
+    color:#fff !important;
+} */
+.css-v1r2li code {
+
+    color: #fff!important;
+}
+.Message{
+    margin-left: 20px;
+}
+
+
+.welcomeMessage{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.welcomeMessage p{
+    max-width: 70%;
+    line-height: 2;
+    margin-top: 20px
+}
+
+.commonbox{
+    margin: 10px 40px;
+}
